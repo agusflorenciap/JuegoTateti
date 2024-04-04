@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/posea/AndroidStudioProjects/TatetiV4/app/src/main/res/layout/activity_juego.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/posea/AndroidStudioProjects/TatetiV4/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/posea/AndroidStudioProjects/TatetiV4/app/src/main/res/layout/activity_puntajes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/posea/AndroidStudioProjects/TatetiV4/app/src/main/res/layout/activity_sumar_puntaje.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/posea/AndroidStudioProjects/TatetiV4/app/src/main/res/layout/layout_listview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/posea/Downloads/Tatetifinal/TatetiV4/app/src/main/res/layout/activity_juego.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/posea/Downloads/Tatetifinal/TatetiV4/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/posea/Downloads/Tatetifinal/TatetiV4/app/src/main/res/layout/activity_puntajes.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/posea/Downloads/Tatetifinal/TatetiV4/app/src/main/res/layout/activity_sumar_puntaje.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/posea/Downloads/Tatetifinal/TatetiV4/app/src/main/res/layout/layout_listview.xml" value="0.2957427536231884" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

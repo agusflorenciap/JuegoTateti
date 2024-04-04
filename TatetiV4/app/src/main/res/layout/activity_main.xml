@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8AA4E8F1"
+    tools:context=".MainActivity">
+
+    <android.widget.Button
+        android:id="@+id/buttonListado"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="191dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/botones_menu"
+        android:text="@string/botonPuntajes"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSalirPrincipal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2Jugadores"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.widget.Button
+        android:id="@+id/button2Jugadores"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="191dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/botones_menu"
+        android:text="@string/boton_2Jugadores"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonListado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUnJugador" />
+
+    <android.widget.Button
+        android:id="@+id/buttonUnJugador"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="190dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="-20dp"
+        android:background="@color/botones_menu"
+        android:text="@string/boton_1Jugador"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button2Jugadores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="487dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:background="#9BE7FF"
+        android:text="X  O  X  O  X  O  X  O  X  O  X  O  X  O  X  O  X"
+        android:textColor="#1F7C88"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="487dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="28dp"
+        android:background="#9BE7FF"
+        android:text="X  O  X  O  X  O  X  O  X  O  X  O  X  O  X  O  X"
+        android:textColor="#1F7C88"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-38dp" />
+
+    <android.widget.Button
+        android:id="@+id/buttonSalirPrincipal"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="112dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="88dp"
+        android:background="@color/botones_menu"
+        android:text="@string/boton_Salir"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonListado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tateti</string>
+    <string name="Resultado_texto">{¡Ganaste!}</string>
+    <string name="Turno_texto">Turno= </string>
+    <string name="boton_Salir">Salir</string>
+    <string name="Texto_XOXO">X  O  X  O  X  O  X  O  X  O  X  O  X  O  X  O  X</string>
+    <string name="boton_1Jugador">1 Jugador</string>
+    <string name="boton_2Jugadores">2 Jugadores</string>
+    <string name="botonPuntajes">Puntajes</string>
+</resources>
